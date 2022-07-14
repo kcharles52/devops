@@ -1,9 +1,9 @@
 {
-  "url":{
+  "url": {
     "long_url": { "string": {} },
-    "short_url": { "string": {} },
-    "url_code": { "string": {} },
-    "shorten_date": { "string": {} },
+    //"short_url": { "string": {} },
+    //"url_code": { "string": {} },
+    // "shorten_date": { "string": {} },
   },
   "Post": {
     "title": { "string": {} },

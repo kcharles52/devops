@@ -1,18 +1,8 @@
 {
   "url": {
-    "long_url": { "string": {} },
-
-  },
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+    "long_url": { "string": { "minLength": 3, "maxLength": 20 } },
+    "shorten_date": { "string": { "minLength": 3, "maxLength": 10 } },
+    "url_code": {"string": { "minLength": 3, "maxLength": 4 } },
+    "short_url": { "string": { "minLength": 3, "maxLength": 16 }}
   }
 }
